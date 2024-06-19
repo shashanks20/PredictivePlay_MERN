@@ -1,4 +1,3 @@
-```markdown
 # PredictivePlay
 
 PredictivePlay is a comprehensive database project that integrates user login and prediction functionalities. It includes features for displaying scoreboards and leaderboards, managing database functionalities for efficient storage and retrieval of scores, and an intuitive user interface to enhance user experience and accessibility.
@@ -73,5 +72,5 @@ PredictivePlay/
 - **User Login and Prediction Functionalities:** Secure user authentication and a seamless prediction system.
 - **Efficient Database Management:** Optimized for storing and retrieving project scores.
 - **Intuitive User Interface:** Designed for an enhanced user experience and improved accessibility.
-```
+
 
