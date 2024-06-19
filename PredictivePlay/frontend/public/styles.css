@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.homepage-container {
+    background: url('Home.jpg') no-repeat center center fixed;
+    background-size: cover; 
+    opacity: 5.5;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    color: #fbf9f9; /* Set text color to white */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent overlay */
+}
+
+.content {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: auto;
+    text-align: center;
+}
+
+/* CSS for Leaderboard Component */
+
+.leaderboard-container {
+    margin-top: 45px; /* Adjust margin as needed */
+    padding: 20px; /* Adjust padding as needed */
+    text-align: center; /* Center align content */
+  }
+  
+  .leaderboard-table {
+    margin: 0 auto; /* Center align table */
+    max-width: 800px; /* Limit table width */
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Pagination Styles */
+  .pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pagination-button {
+    padding: 8px 12px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .pagination-button.active {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+  
+  .pagination-button:hover {
+    background-color: #ddd;
+  }
+  
+
+  /* CSS for Fixtures Component */
+
+.fixture-container {
+    margin-top: 45px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .fixture-table {
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .date-column {
+    width: 20%; /* Adjust width as per your design */
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .date-column {
+      width: 30%; /* Adjust for smaller screens */
+    }
+  }
+
+  /* CSS for Login Component */
+
+.login-container {
+    margin-top: 150px;
+  }
+  
+  .login-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-block {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .alert {
+    margin-top: 20px;
+  }
+  
+  .register-link {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .register-link a {
+    color: #007bff;
+  }
+  
+  .register-link a:hover {
+    text-decoration: underline;
+  }
+
+  
+
+  
+  .centered-select {
+    text-align: center; /* Center text within select */
+    padding: 8px; /* Adjust padding as needed */
+    width: 100%; /* Ensure full width of container */
+    box-sizing: border-box; /* Ensure padding is included in width */
+  }
+  
